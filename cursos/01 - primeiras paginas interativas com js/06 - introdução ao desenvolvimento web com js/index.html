@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex</title>
+
+    <style>
+
+        * {
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+
+    <h1>Iniciar http-server</h1>
+    <h2>No terminal, digitar <i>http-server ./</i></h2>
+    <h3>HTML é a linguagem de marcação, CSS dá estilo e JS dá o comportamento</h3>
+    <h4>Para dar mais fluidez, coloque os scripts de comportamento no final da página</h4>
+
+    <button id="btnTeste" type="button">
+        teste
+    </button>
+
+    <script>
+               
+        const btnTeste = document.getElementById("btnTeste")
+        btnTeste.addEventListener("click", function () {
+            console.log("Clicou no botão")
+            alert('Clicou no botão')
+        })
+
+    </script>
+    
+    
+</body>
+</html>
