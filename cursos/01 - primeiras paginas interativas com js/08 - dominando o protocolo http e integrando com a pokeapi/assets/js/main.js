@@ -1,11 +1,11 @@
-const pokedexContent = document.getElementById(`content`)
+const pokedexContent = document.getElementById(`content-scroll`)
 function pokedexOl(generation) {
   return `
   <ol id="pokemonListGeneration${generation}" class="pokemons">            
   </ol>`
 } 
 const htmlLoadMoreButton = `
-<div>
+<div class="button">
 <button id="loadMore" type="button">
 <img class="gotta-catch-em-all" src="assets/img/gotta-catch-em-all.png" alt="gotta catch 'em all button">
 </button>
@@ -54,7 +54,7 @@ function createPokemonGenerationH2 (generation) {
     return `
     <div class="generation">
     <h2>${pokemonGenerationInformation[generation][1]}</h2>
-    <img src="assets/img/poke-gens/${generation+1}gen.jpg" alt="Generation ${generation+1}">                
+    <img src="assets/img/poke-gens/${generation+1}gen.png" alt="Generation ${generation+1}">                
     </div>
     `
 }
