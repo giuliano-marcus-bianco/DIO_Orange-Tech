@@ -43,7 +43,9 @@ Neste curso foram mostrados desde o primeiros conceitos de JavaScript até mesmo
 
 
 
-Abaixo, alguns vídeos mostrando o resultado de como ficou a Pokédex para a entrega final deste curso:
+Abaixo, uma reprodução mostrando o resultado de como ficou a Pokédex para a entrega final deste curso:
+
+<img src="cursos\01 - primeiras paginas interativas com js\08 - dominando o protocolo http e integrando com a pokeapi\assets\img\preview (1).gif" alt="name" style="zoom:200%;" />
 
 
 
