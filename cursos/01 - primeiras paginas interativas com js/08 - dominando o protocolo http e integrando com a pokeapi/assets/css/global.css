@@ -14,8 +14,8 @@ body {
 }
 
 .content {
-    height: 85vh;
-    min-width: 80vw;
+    height: 50vh;
+    width: 90vw;
     flex-direction: column;
     padding: 0 2rem 0;
     margin: 0 auto 1rem;
@@ -25,15 +25,46 @@ body {
     justify-content: center;
     align-items: center;
     overflow-x: hidden;
-    width: fit-content;
     
 }
 
 .content-scroll {
     width: 100%;
+    justify-content: center;
     overflow-y: auto;
     overflow-x: hidden;
     max-height: 80vh;
     margin: 1rem auto;
 
 }
+
+@media screen and (min-height: 510px) {
+  .content {
+    height: 55vh;
+  }
+}
+
+
+@media screen and (min-height: 700px) {
+    .content {
+        height: 65vh;
+    }
+}
+
+@media screen and (min-height: 900px) {
+    .content {
+        height: 75vh;
+    }
+}
+
+@media screen and (min-height: 1200px) {
+    .content {
+      height: 80vh;
+    }
+  }
+    /* 
+    @media screen and (max-height: 400px) {
+        .content {
+        height: 50vh;
+        }
+    } */
