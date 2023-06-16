@@ -34,5 +34,9 @@ function somatorio(n){
     }
   }
 
-  const a = somatorio(3)
+  const a = somatorio(10)
   console.log(a)
+  const b = somatorio(4)
+  console.log(b)
+  const c = somatorio(15)
+  console.log(c)
